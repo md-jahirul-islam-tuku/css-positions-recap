@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky</title>
+  <link rel="stylesheet" href="all.css">
+  <style>
+    .box {
+      border: 2px dotted plum;
+      width: 200px;
+    }
+
+    .ring, .boy, .water {
+      position: sticky;
+      top: 0;
+    }
+    .dummy{
+      width: 200px;
+      height: 200px;
+      border: 2px dotted royalblue;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>CSS Positions Click:</h3>
+  <nav>
+    <ul>
+      <li><a href="static.html">Static</a></li>
+      <li><a href="absolute.html">Absolute</a></li>
+      <li><a href="relative.html">Relative</a></li>
+      <li><a href="sticky.html">Sticky</a></li>
+      <li><a href="fixed.html">Fixed</a></li>
+    </ul>
+  </nav>
+  <h1>স্ক্রল করতে থাকলে প্যারেন্টের রুট এর শুরুতে পজিশন নিবে এবং শেষে পজিশন শেষ করবে</h1>
+  <ol>
+    <!-- Flow related positions -->
+    <li>Static</li>
+    <li>Relative</li>
+    <li>Absolute</li>
+    <!-- Scroll Related Positions -->
+    <li>Fixed</li>
+    <li>Sticky</li>
+  </ol>
+  <div class="swim-container">
+    <div class="box boy">
+      <img src="swim/boy.svg" alt="">
+    </div>
+    <div class="box ring">
+      <img src="swim/ring.svg" alt="">
+    </div>
+    <div class="box water">
+      <img src="swim/water.svg" alt="">
+    </div>
+  </div>
+  <div class="another">
+    <div class="dummy">Peru-1</div>
+    <div class="dummy">Peru-2</div>
+    <div class="dummy">Peru-3</div>
+    <div class="dummy">Peru-4</div>
+    <div class="dummy">Peru-5</div>
+    <div class="dummy">Peru-6</div>
+    <div class="dummy">Peru-7</div>
+    <div class="dummy">Peru-8</div>
+    <div class="dummy">Peru-9</div>
+    <div class="dummy">Peru-10</div>
+    <div class="dummy">Peru-11</div>
+    <div class="dummy">Peru-12</div>
+    <div class="dummy">Peru-13</div>
+    <div class="dummy">Peru-14</div>
+    <div class="dummy">Peru-15</div>
+  </div>
+</body>
+
+</html>

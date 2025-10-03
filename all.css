@@ -1,0 +1,12 @@
+nav ul{
+  display: flex;
+  list-style: none;
+}
+nav ul li a{
+  text-decoration: none;
+  margin: 3px;
+  background-color: brown;
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: white;
+}
